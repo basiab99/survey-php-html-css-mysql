@@ -1,0 +1,78 @@
+	body
+		{
+		background-color:#BECBDA;
+		font-family: 'PT Serif', serif;
+		}
+	
+	#container
+		{
+		max-width: 900px; /* maksymalna szerokość naszych treści, dostosowuje się w przypadku mniejszego okna */
+		margin-left:auto; /* ustawiamy na środku */
+		margin-right:auto;  /* ustawiamy na środku */
+		}
+	
+	#title
+		{
+		background-color: #4A6482;
+		color: #F4F9FB;
+		margin: 20px 0px 0px 0px;
+		font-size: 70px;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 2px;
+		font-family: 'Playfair Display', serif;
+		padding: 30px;
+		}
+		
+	#info
+		{
+		background-color: #4A6482;
+		text-align: center;
+		color: #F4F9FB;
+		font-family: 'Playfair Display', serif;
+		font-size: 17px;
+		padding: 20px;
+		margin: 0px 0px 25px 0px;
+		}
+	
+	
+	#content
+        {
+        background-color: #A4B6CB;
+        width: 86.7%;
+		font-size: 17px;
+		padding: 60px;
+        }
+	
+	#change{
+		text-align:center;	
+		}
+	
+	#footer
+		{
+		background-color:#4A6482;
+		color:#F4F9FB;
+		margin: 20px 0px 25px 0px;
+		font-size: 15 px;
+		font-weight: bold;
+		text-align:center;
+		font-family: 'Playfair Display', serif;
+		padding:8px;
+		position: sticky; /*ustawiamy pozycje stopki aby była zawsze widoczna */
+		bottom: 0px; /*przyklejamy ją na samym dole*/
+		}
+		
+	#submit {
+		z-index: 99; 
+		border: none; 
+		outline: none; 
+		background-color: #4A6482; 
+		color: white; 
+		cursor: pointer; /*zmnieniamy kursor aby podkreślić że przycisk jest klikalny*/
+		padding: 13px; 
+		font-size: 15px; 
+		}
+
+	#sumbit:hover {
+		background-color: #555;  /* po najechaniu na przycisk zmienia się kolor na szary */
+		}
